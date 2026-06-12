@@ -1,0 +1,12 @@
+{
+  "name": "json-patch-gen",
+  "version": "1.0.0",
+  "description": "Generate RFC 6902 JSON Patch operations by comparing two JSON values. Zero dependencies.",
+  "main": "index.js",
+  "bin": { "json-patch-gen": "./cli.js" },
+  "scripts": { "test": "node test.js" },
+  "keywords": ["json-patch", "rfc6902", "diff", "json", "patch", "merge"],
+  "license": "MIT",
+  "author": "sulthonzh",
+  "repository": { "type": "git", "url": "https://github.com/sulthonzh/json-patch-gen" }
+}
